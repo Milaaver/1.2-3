@@ -9,5 +9,6 @@ branches:
 build: off  
 
 build_script:
+  - chmod +x gradlew
   - ./gradlew test --info  
   
